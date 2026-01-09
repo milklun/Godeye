@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B0F14"
+    android:padding="20dp">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOD·EYE"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APK 跨包注入分析工具"
+        android:textSize="14sp"
+        android:textColor="#8A8F98"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 选择的 APK 路径 -->
+    <TextView
+        android:id="@+id/tvApkPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="尚未选择 APK"
+        android:textSize="13sp"
+        android:textColor="#B0BEC5"
+        android:background="#12161C"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 选择 APK 按钮 -->
+    <Button
+        android:id="@+id/btnPickApk"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="选择 APK"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="#1E88E5" />
+
+    <!-- 开始分析按钮 -->
+    <Button
+        android:id="@+id/btnStartAnalyze"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="开始分析"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="#E53935"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

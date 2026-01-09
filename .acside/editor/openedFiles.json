@@ -1,0 +1,50 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 13,
+          "index": 2631,
+          "line": 77
+        },
+        "start": {
+          "column": 13,
+          "index": 2631,
+          "line": 77
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/java/com/god/eye/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 1587,
+          "line": 51
+        },
+        "start": {
+          "column": 1,
+          "index": 1587,
+          "line": 51
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 66,
+          "index": 433,
+          "line": 6
+        },
+        "start": {
+          "column": 66,
+          "index": 433,
+          "line": 6
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/res/layout/activity_main.xml"
+}

@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.god.eye"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:4:1-76
+11-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:4:18-73
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:5:1-77
+12-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:5:18-74
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:6:5-79
+13-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:7:5-67
+14-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:7:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/40cb7625f31bd97c9caeb7cec08129c1/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.god.eye.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/40cb7625f31bd97c9caeb7cec08129c1/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/40cb7625f31bd97c9caeb7cec08129c1/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.god.eye.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/40cb7625f31bd97c9caeb7cec08129c1/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/40cb7625f31bd97c9caeb7cec08129c1/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:8:5-38:19
+23        android:allowBackup="true"
+23-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/40cb7625f31bd97c9caeb7cec08129c1/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:13:9-35
+31        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+31-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:14:9-65
+32
+33        <!-- 入口页 -->
+34        <activity
+34-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:17:9-24:20
+35            android:name="com.god.eye.MainActivity"
+35-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:18:13-41
+36            android:exported="true" >
+36-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:19:13-36
+37            <intent-filter>
+37-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:21:17-69
+38-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:22:17-77
+40-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <!-- 结果页 -->
+45        <activity
+45-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:27:9-29:40
+46            android:name="com.god.eye.ResultActivity"
+46-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:28:13-43
+47            android:exported="false" />
+47-->/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/AndroidManifest.xml:29:13-37
+48
+49        <!-- 预留：分析中页面（后面加） -->
+50        <!--
+51        <activity
+52            android:name=".AnalyzeActivity"
+53            android:exported="false" />
+54        -->
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.god.eye.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/848975b57b72d5e7c5e236fedc0b3923/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/0f1585e9cf9b21805e5f8dbc32a571a6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/0f1585e9cf9b21805e5f8dbc32a571a6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/0f1585e9cf9b21805e5f8dbc32a571a6/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/c6a2cedaacf65180dabf0c95da69e1dd/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

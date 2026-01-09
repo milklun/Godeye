@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnPickApk
+id btnStartAnalyze
+id recyclerView
+id tvApkPath
+id tvCaller
+id tvEmpty
+id tvSmali
+id tvSubTitle
+id tvTarget
+id tvTitle
+layout activity_main
+layout activity_result
+layout item_inject_result
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style Base.AppTheme
+xml backup_rules
+xml data_extraction_rules

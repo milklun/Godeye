@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 35,
+          "index": 1286,
+          "line": 40
+        },
+        "start": {
+          "column": 35,
+          "index": 1286,
+          "line": 40
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Godeye/app/src/main/res/layout/activity_main.xml"
+}
